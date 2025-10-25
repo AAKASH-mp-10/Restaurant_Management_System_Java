@@ -1,0 +1,5 @@
+burger,10.0,1
+Pizza,11.0,2
+salad,8.0,1
+water,2.0,0
+coke,4.0,4
