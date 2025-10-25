@@ -19,7 +19,6 @@ public class Login extends javax.swing.JFrame {
     }
 
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
         loginPanel = new javax.swing.JPanel();
@@ -111,7 +110,7 @@ public class Login extends javax.swing.JFrame {
         loginPanel.getAccessibleContext().setAccessibleName("");
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
     private void loginButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_loginButtonActionPerformed
         if (userNameField.getText().equalsIgnoreCase("Aakash")) {
@@ -125,11 +124,11 @@ public class Login extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(this, userNameField.getText() + " Access Denied");
         }
 
-    }//GEN-LAST:event_loginButtonActionPerformed
+    }
 
-    private void userNameFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_userNameFieldActionPerformed
+    private void userNameFieldActionPerformed(java.awt.event.ActionEvent evt) {
        
-    }//GEN-LAST:event_userNameFieldActionPerformed
+    }
 
     public static void main(String args[]) {
        
@@ -138,13 +137,12 @@ public class Login extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton loginButton;
     private javax.swing.JPanel loginPanel;
     private javax.swing.JPasswordField passwordField;
     private javax.swing.JLabel passwordLabel;
     private javax.swing.JTextField userNameField;
     private javax.swing.JLabel userNameLabel;
-    // End of variables declaration//GEN-END:variables
+    
 
 }
